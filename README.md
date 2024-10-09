@@ -27,8 +27,8 @@ A local .env file to specify the environment variables (e.g., LOCAL_DB_PATH).
 ## Installation and Setup
 Clone the Repository:
 ```
-git clone https://your-repo-url.git
-cd your-repo-directory
+git clone https://gitlab.com/rapsodoinc/tr/architecture/golang-web-app
+cd golang-web-app
 
 ```
 
@@ -41,7 +41,7 @@ go mod tidy
 
 Configure the .env file: Create a .env file in the root directory and configure the environment variables:
 ```
-LOCAL_DB_PATH=./data/mydb.db
+LOCAL_DB_PATH=./data/buntdb.db
 ```
 
 Run the Application: Start the application with:
